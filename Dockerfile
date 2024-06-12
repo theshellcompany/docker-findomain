@@ -13,7 +13,7 @@ RUN apt-get install -yq --no-install-recommends ca-certificates unzip wget
 
 # installation findomain
 WORKDIR /tmp
-RUN wget https://github.com/Findomain/Findomain/releases/latest/download/findomain-linux-i386.zip &&
+RUN wget https://github.com/Findomain/Findomain/releases/latest/download/findomain-linux-i386.zip && \
     unzip /tmp/findomain-linux-i386.zip && \
     chmod +x /tmp/findomain && \
     mv /tmp/findomain /usr/bin/findomain && \
