@@ -1,7 +1,7 @@
 # docker-findomain
 Dockerized version of findomain. Findomain is a tool that allows you monitor for subdomains. This is used for mapping the footprint linked to a domain.
 
-## Building the Docker container
+## Building the Docker image
 ```bash
 sudo docker build -t findomain . 
 ```
